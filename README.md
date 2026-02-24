@@ -4,6 +4,8 @@ This repo contains the content of the "Probabilistic Machine Learning" academic 
 
 Lecturer: Prof. Luca Bortolussi Tutors: Sara Candussio, Alessandro Della Siega
 
+The material comes from [this repository](https://github.com/gaoithee/PML26) and the official Team group of the course.
+
 ---
 
 ## Structure
