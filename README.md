@@ -6,5 +6,6 @@ This repo contains the content of the "Probabilistic Machine Learning" academic 
 
 ```bash
 ├── lectures
+├── notes
 └── exercises
 ```
