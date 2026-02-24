@@ -70,7 +70,7 @@ When prompted:
 
 ### Select Python Interpreter
 
-Choose a Python version (recommended: **Python 3.9+**).
+Choose a Python version (recommended: **Python 3.12.x**).
 
 If you don’t see one:
 
@@ -107,8 +107,7 @@ print(sys.executable)
 
 ## ⚠️ Troubleshooting
 
-- **Broken System Python:** If you work with `venv`s and see `ModuleNotFoundError: No module named 'encodings'`, your system's Python 3.12 installation is incomplete. You can switch to `conda` installation to avoid this issue.
-- **PyTorch & GPU:** If you have an NVIDIA GPU, the standard `pip install` might only install the CPU version. Visit [pytorch.org](https://pytorch.org/) for the specific CUDA-enabled command.
+- **PyTorch & GPU:** If you have an NVIDIA GPU, the standard `pip install` install the CPU version. Visit [pytorch.org](https://pytorch.org/) for the specific CUDA-enabled command. If you wanna proceed with this option (torch with cuda) remember to uninstall the previous version of torch and torchvision before installing the new ones (pip uninstall torch torchvision).
 - **Windows C++ Tools:** If `pip install` fails on packages like `scipy`, you may need the [Microsoft Visual C++ Build Tools](https://www.google.com/search?q=https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 
 ---
