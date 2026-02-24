@@ -13,6 +13,7 @@ The material comes from [this repository](https://github.com/gaoithee/PML26) and
 ```bash
 ├── lectures    # folder containing lectures slides
 ├── notes       # folder containing hand notes for the lectures
+├── textbooks   # folder containing some usefull books
 └── exercises   # folder containing python and notebook for the exercises
 ```
 
